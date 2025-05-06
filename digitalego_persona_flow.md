@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     A[Client Intake Form<br/>(Tally / Typeform)]
     B[Mapped to Traits<br/>(Directed Q&A → Fields)]
