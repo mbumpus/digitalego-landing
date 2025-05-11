@@ -1,2 +1,7 @@
 User-agent: Twitterbot
 Disallow: /
+
+User-agent: *
+Disallow:
+
+Sitemap: https://digitalego.ai/sitemap.xml
