@@ -2,28 +2,15 @@ import React from 'react';
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-[#061525] text-white flex flex-col items-center justify-center px-6 py-20 text-center">
-    <img src="/DigitalEgo_logo_TM_alt.png" alt="DigitalEgo.AI Logo" className="w-40 mb-6" />
-    <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-        Not just a chatbot. <br />
-        A mirror.
-      </h1>
-
-      <p className="text-xl md:text-2xl max-w-2xl text-slate-300 mb-10">
-        Jules wasn’t trained to answer. <br className="hidden sm:inline" />
-        She was shaped to reflect.
-      </p>
-
-      <a
-        href="/waitlist"
-        className="bg-blue-600 hover:bg-blue-500 hover:underline text-white px-6 py-3 rounded text-lg transition-all"
-
-      >
-        Join the Waitlist
-      </a>
-      
-      <footer className="mt-20 text-sm text-slate-500 italic">
-        Built on nights and weekends. Backed by purpose. Shaped with intention.
+    <div className="bg-[#061525] text-white flex flex-col justify-center items-center min-h-screen text-center p-4">
+      <img src="/DigitalEgo_logo_TM_alt.png" alt="DigitalEgo.AI Logo" className="max-w-[80%] h-auto" />
+      <h1 className="text-3xl md:text-5xl font-bold mt-8">Meet the Minds Behind the Mirror.</h1>
+      <p className="text-xl italic mt-4">Explore your own Digital Ego—or chat with history's greatest.</p>
+      <a href="/waitlist" className="mt-6 px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-lg">Join the Waitlist</a>
+      <p className="text-sm text-slate-400 italic mt-6">"Learning never exhausts the mind." —Leonardo da Vinci, now Digital.</p>
+      <a href="/about" className="mt-4 text-sky-400 text-base hover:underline">About DigitalEgo.ai →</a>
+      <footer className="absolute bottom-4 text-xs text-slate-400">
+        &copy; 2025 DigitalEgo.AI. All rights reserved. DigitalEgo.AI™ is a trademark of AI Cabinet Method LLC.
       </footer>
     </div>
   );
