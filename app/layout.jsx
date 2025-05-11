@@ -28,10 +28,8 @@ export default function RootLayout({ children }) {
   <meta property="og:type" content="website" />
 
   {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="DigitalEgo.ai" />
-  <meta name="twitter:description" content="Built to reflect your brilliance." />
-  <meta name="twitter:image" content="/og-image.png" />
+<meta name="twitter:card" content="none" />
+
 </head>
       <body>{children}</body>
     </html>
