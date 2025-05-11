@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'About DigitalEgo.ai | Modular AI That Mirrors You',
+  description:
+    'Learn more about the philosophy and people behind DigitalEgo.ai—an AI framework built to reflect your thinking, not automate it.',
+};
+
 export default function AboutPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center p-6">
