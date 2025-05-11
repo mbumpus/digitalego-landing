@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import '../styles/globals.css';
 import Link from 'next/link';
 
@@ -48,8 +49,8 @@ export default function RootLayout({ children }) {
               logo: 'https://digitalego.ai/favicon.svg',
               sameAs: [
                 'https://www.linkedin.com/company/digitalego-ai',
-                'https://www.facebook.com/digitalego.ai',
-              ],
+                'https://www.facebook.com/digitalego.ai'
+              ]
             }),
           }}
         />
