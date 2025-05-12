@@ -26,7 +26,7 @@ export default function JulesPage() {
         {/* Right Image */}
         <div className="relative h-full w-full overflow-hidden">
           <img
-            src="/jules_promo_final.png"
+            src="/jules-portrait.png"
             alt="Jules portrait"
             className="absolute inset-0 h-full w-full object-cover object-bottom"
           />
