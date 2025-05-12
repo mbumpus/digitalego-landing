@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function JulesPage() {
   return (
-    <div className="min-h-screen bg-[#050509] text-white">
+    <div className="min-h-screen bg-[#080405] text-white">
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen">
         {/* Left Content */}
         <div className="flex items-center justify-center p-12 lg:pl-24 lg:pr-16 text-left">
@@ -25,11 +25,12 @@ export default function JulesPage() {
 
         {/* Right Image */}
         <div className="relative h-full w-full overflow-hidden">
-          <img
-  src="/jules-portrait.png"
-  alt="Jules portrait"
-  className="absolute inset-0 h-full w-full object-cover object-bottom"
-/>
+        <img
+          src="/jules-portrait.png"
+          alt="Jules portrait"
+        className="absolute inset-0 h-auto w-auto max-h-[90vh] max-w-[60vw] right-0 bottom-0 object-contain"
+        />
+
 
           <div className="absolute inset-0 bg-gradient-to-l from-[#050509]/0 to-[#050509] lg:hidden" />
         </div>
