@@ -1,4 +1,10 @@
-import React from 'react';
+// app/jules/page.jsx
+
+export const metadata = {
+  title: 'Meet Jules | Reflective AI by DigitalEgo.ai',
+  description:
+    'Jules isn’t here to answer your questions. She’s here to reflect your thinking. Explore the first persona in the DigitalEgo.ai suite.',
+};
 
 export default function JulesLandingPage() {
   return (
