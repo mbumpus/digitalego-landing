@@ -26,10 +26,11 @@ export default function JulesPage() {
         {/* Right Image */}
         <div className="relative h-full w-full overflow-hidden">
           <img
-            src="/jules-portrait.png"
-            alt="Jules portrait"
-            className="absolute inset-0 h-full w-full object-cover object-bottom"
-          />
+  src="/jules-portrait.png"
+  alt="Jules portrait"
+  className="absolute inset-0 h-full w-full object-cover object-bottom"
+/>
+
           <div className="absolute inset-0 bg-gradient-to-l from-[#050509]/0 to-[#050509] lg:hidden" />
         </div>
       </div>
