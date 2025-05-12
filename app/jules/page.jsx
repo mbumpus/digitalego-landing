@@ -31,11 +31,12 @@ export default function JulesPage() {
 
         {/* Right Image */}
         <div className="relative w-full h-full overflow-hidden">
-          <img
-            src="/jules-portrait.png"
-            alt="Jules portrait"
-            className="absolute right-0 top-0 h-[85%] w-auto object-contain"
-          />
+        <img
+          src="/jules-portrait.png"
+          alt="Jules portrait"
+          className="absolute right-0 top-0 h-[90vh] w-auto object-contain"
+        />
+
           <div className="absolute inset-0 bg-gradient-to-l from-[#050509]/0 to-[#050509] lg:hidden" />
         </div>
       </div>
