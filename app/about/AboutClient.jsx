@@ -9,7 +9,7 @@ export default function AboutPage() {
     <div className="flex flex-col items-center justify-center min-h-screen text-center p-6 text-white">
       <h1 className="text-3xl font-bold mb-6">About DigitalEgo</h1>
 
-      <div className="max-w-2xl space-y-6 text-lg leading-relaxed">
+      <div className="max-w-xl space-y-8 text-lg leading-relaxed">
         <p>
           DigitalEgo is more than just a chatbot framework—it’s a shift in how we design AI for human connection. Where most tools are trained to answer, ours are shaped to reflect.
         </p>
@@ -26,7 +26,7 @@ export default function AboutPage() {
           We’re building a future where AI doesn't just respond—it resonates. With your style. Your rhythm. Your way of thinking.
         </p>
 
-        <p className="text-sm text-gray-400 mt-8 italic">
+        <p className="text-sm italic text-slate-400">
           Built on nights and weekends. Backed by purpose. Shaped with intention.
         </p>
       </div>
