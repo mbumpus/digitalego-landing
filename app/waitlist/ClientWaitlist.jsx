@@ -26,7 +26,7 @@ export default function WaitlistPage() {
                 <input type='hidden' name='zc_gad' id='zc_gad' value='' />
                 <input type='hidden' name='xmIwtLD' value='cf93d28581d396b72bad0b8cd6b47b08e247ed240343f1494d3adff4d3cc34ad95c6c7dbd5f68c1d8999a8be6f85a3a6' />
                 <input type='hidden' name='actionType' value='TGVhZHM=' />
-                <input type='hidden' name='returnURL' value='null' />
+                <input type='hidden' name='returnURL' value='https://digitalego.ai/thank-you' />
 
                 <label class='block mb-2 font-semibold'>First Name *</label>
                 <input name='First Name' required type='text' class='w-full p-2 border border-gray-300 rounded mb-4' />
