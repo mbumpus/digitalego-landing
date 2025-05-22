@@ -14,6 +14,8 @@ export default function Page() {
       
 <p className="mb-4">Gen 1 AI tools made you faster. Gen 2 tools should make you wiser.</p>
 <p className="mb-4">We’ve spent the past few years celebrating co-pilots, productivity boosters, and clever wrappers for large language models. But the next wave of AI won’t just accelerate tasks—it will extend cognition, reflect identity, and help you think through the hard stuff.</p>
+<p className="mb-4">This isn’t about just getting answers faster. It’s about getting answers that make sense for you. Systems that don’t just complete your sentence—but understand what kind of story you’re trying to tell.</p>
+<p className="mb-4">Gen 2 AI is where intelligence meets intentionality. And that’s where the future starts to get interesting.</p>
 
       <div className="mt-12 border-t border-gray-700 pt-6">
         <p className="text-sm text-slate-400 italic">Written by Mike Bumpus, founder of DigitalEgo.AI. He builds AI systems that reflect identity, not just intelligence.</p>
