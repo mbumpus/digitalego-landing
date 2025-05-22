@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
           </h1>
           <nav className="space-x-6 text-sm flex items-center">
   <a
-    href="https://chat.openai.com/g/g-682e8b3a56d08191bffbf4ff"
+    href="https://baronvonboost.com"
     target="_blank"
     rel="noopener noreferrer"
     className="text-pink-400 hover:text-pink-300 font-semibold inline-flex items-center gap-2"
