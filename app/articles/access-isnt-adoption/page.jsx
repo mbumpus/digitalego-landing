@@ -3,6 +3,19 @@ export const metadata = {
   description: "Access alone isn’t empowerment. AI must reflect identity, not just execute commands. DigitalEgo™ empowers users through persona-based design.",
   alternates: {
     canonical: "https://medium.com/@bumpusma/access-isnt-adoption-why-real-ai-empowerment-starts-with-identity-not-just-availability-dd55917ca87c"
+  },
+  openGraph: {
+    title: "Access Isn’t Adoption",
+    description: "Why real AI empowerment starts with identity—not just availability.",
+    url: "https://www.digitalego.ai/articles/access-isnt-adoption",
+    images: [
+      {
+        url: "/images/access-isnt-adoption-cover.png",
+        width: 1200,
+        height: 630,
+        alt: "Access Isn’t Adoption cover image",
+      },
+    ],
   }
 };
 
