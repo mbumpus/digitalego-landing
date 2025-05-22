@@ -60,17 +60,27 @@ export default function RootLayout({ children }) {
           <h1 className="text-xl font-bold">
             <Link href="/">DigitalEgo.ai</Link>
           </h1>
-          <nav className="space-x-6 text-sm">
-            <Link href="/articles" className="hover:underline">
-              Articles
-            </Link>
-            <Link href="/about" className="hover:underline">
-              About
-            </Link>
-            <Link href="/waitlist" className="hover:underline">
-              Waitlist
-            </Link>
-          </nav>
+          <nav className="space-x-6 text-sm flex items-center">
+  <a
+    href="https://chat.openai.com/g/g-682e8b3a56d08191bffbf4ff"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-pink-400 hover:text-pink-300 font-semibold inline-flex items-center gap-2"
+  >
+    🎭 Meet the Baron
+    <span className="bg-pink-600 text-white text-xs px-2 py-0.5 rounded-full">New</span>
+  </a>
+  <Link href="/articles" className="hover:underline">
+    Articles
+  </Link>
+  <Link href="/about" className="hover:underline">
+    About
+  </Link>
+  <Link href="/waitlist" className="hover:underline">
+    Waitlist
+  </Link>
+</nav>
+
         </header>
         <main className="p-6">{children}</main>
       </body>
