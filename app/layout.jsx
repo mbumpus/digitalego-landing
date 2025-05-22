@@ -61,6 +61,9 @@ export default function RootLayout({ children }) {
             <Link href="/">DigitalEgo.ai</Link>
           </h1>
           <nav className="space-x-6 text-sm">
+            <Link href="/articles" className="hover:underline">
+              Articles
+            </Link>
             <Link href="/about" className="hover:underline">
               About
             </Link>
