@@ -11,6 +11,11 @@ export default function Page() {
     <article className="max-w-3xl mx-auto py-12 px-4 text-white">
       <h1 className="text-4xl font-bold mb-4">What Comes After Copilot: The Rise of Gen 2 AI</h1>
       <p className="text-sm italic mb-6">Originally published on Medium. Republished here with permission by the author.</p>
+      <img
+        src="/images/gen-2-ai-cover.png"
+        alt="Cover image for Gen 2 AI article"
+        className="w-full rounded-xl shadow-lg mb-8"
+       />
 
       <p className="mb-4">Gen 1 AI tools made us faster. Gen 2 AI tools will make us wiser.</p>
       <p className="mb-4">The first generation of generative AI, at least what most people know today, gave us copilots. These systems autocomplete our thoughts, summarize documents, optimize email replies, and finish our code.</p>
