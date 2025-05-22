@@ -1,4 +1,4 @@
-import dynamic from 'next/dynamic';
+import dynamic from 'next/dynamic'; 
 import '../styles/globals.css';
 import Link from 'next/link';
 
