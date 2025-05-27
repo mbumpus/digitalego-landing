@@ -10,7 +10,8 @@ export default function LandingPage() {
       <p className="text-sm text-slate-400 italic mt-6">"Learning never exhausts the mind." —Leonardo da Vinci, now Digital.</p>
       <a href="/about" className="mt-4 text-sky-400 text-base hover:underline">About DigitalEgo.ai →</a>
       <footer className="absolute bottom-4 text-xs text-slate-400">
-        &copy; 2025 DigitalEgo.AI. All rights reserved. DigitalEgo.AI™ is a trademark of AI Cabinet Method LLC.
+        &copy; 2025 DigitalEgo.AI. All rights reserved. DigitalEgo.AI™ is a trademark of AI Cabinet Method LLC. <br />
+        <a rel="me" href="https://me.dm/@mikebumpus" className="text-sky-400 hover:underline">Mastodon</a>
       </footer>
     </div>
   );
