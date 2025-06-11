@@ -21,7 +21,7 @@ const nextConfig = {
         source: '/health',
         destination: '/coming-soon/health',
         permanent: false,
-      ];
+      } // <- ✅ NO semicolon here!
     ];
   },
 };
