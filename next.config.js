@@ -17,6 +17,11 @@ const nextConfig = {
         destination: '/coming-soon/development',
         permanent: false,
       },
+      {
+        source: '/health',
+        destination: '/coming-soon/health',
+        permanent: false,
+      ];
     ];
   },
 };
