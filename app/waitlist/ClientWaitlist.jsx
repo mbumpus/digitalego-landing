@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Waitlist | Be Among the First to Meet Jules',
   description:
-    'Join the DigitalEgo waitlist and be first in line to explore reflective AI with Jules—the conversational interface that mirrors how you think.',
+    'Join the DigitalEgo waitlist and be first in line to explore how DigitalEgo can change the way you *do* AI.',
 };
 
 'use client';
@@ -13,7 +13,7 @@ export default function WaitlistPage() {
     <div className="min-h-screen bg-[#061525] text-white flex flex-col items-center justify-center px-4 py-10">
       <h1 className="text-3xl font-bold mb-4 text-center">Join the Waitlist</h1>
       <p className="mb-6 text-gray-300 text-center max-w-xl">
-        Be among the first to meet Jules and explore the future of reflective AI.
+        Be Among the First to Experience Synthetic Enablement™
       </p>
 
       <div className="bg-white text-black rounded-lg p-6 w-full max-w-2xl">
