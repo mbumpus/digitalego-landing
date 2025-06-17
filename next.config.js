@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         source: '/professor',
-        destination: '/coming-soon/professor',
+        destination: 'https://chatgpt.com/g/g-685194b9909c8191a802cd74cd93440f-the-professor',
         permanent: false,
       },
       {
