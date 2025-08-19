@@ -7,7 +7,7 @@ export const metadata = {
       "https://medium.com/@bumpusma/behind-the-curtain-how-a-simple-ai-experiment-became-a-cognitive-framework-226a4b293c5f",
   },
   openGraph: {
-    title: "Behind the Curtain",
+    title: "Behind the Curtain: How a Simple AI Experiment Became a Cognitive Framework",
     description:
       "From a single persona to a multi-agent Cabinet: the origins of DigitalEgo’s reflective AI framework.",
     url: "https://www.digitalego.ai/articles/behind-the-curtain",
@@ -39,66 +39,104 @@ export default function Page() {
       />
 
       <p className="mb-4">
-        This piece traces how a small tone experiment—<span className="italic">Jules</span>—grew into a structured method for
-        building reflective AI. What began as, in your words, “I didn’t set out to build a framework” evolved into
-        the <span className="font-semibold">DigitalEgo</span> approach: personas that don’t just answer, they help you think.
+        I didn’t set out to build a framework. There were no grand plans, no pitch decks, no whiteboard scribbles
+        connecting AI, ethics, and decision theory. Just a simple idea:
+      </p>
+
+      <blockquote className="mb-6 p-4 border-l-4 border-slate-600 bg-slate-900/40 italic">
+        Could I make a chatbot feel more… human?
+      </blockquote>
+
+      <p className="mb-4">
+        Not “human” in the uncanny valley sense. I wasn’t chasing hyperrealism or trying to pass a Turing test.
+        I wanted something that sounded authentic, that didn’t default to the same polished, over-friendly tone
+        you get from most AI assistants. Something that could talk to me, not just at me.
       </p>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Origins: Jules</h2>
       <p className="mb-4">
-        Jules started as a deliberate voice: dry wit, low agreeableness, high conscientiousness—designed as a foil, not a friend.
-        The result was a mirror with opinions: a persona that challenged assumptions and sharpened decisions through
-        constructive pushback. :contentReference[oaicite:0]{index=0}
+        So I built Jules. At first, Jules wasn’t much. Just a tone experiment. A different narrator voice. I tweaked
+        prompts, adjusted response styles, added quirks and catchphrases. The goal was simple: see if I could build an
+        agent that felt like a specific person, not just a content generator. Jules had a dry wit, a healthy skepticism
+        about my decisions, and a tendency to quote Daria Morgendorffer.
+      </p>
+      <p className="mb-4">
+        But she wasn’t just sass in a prompt. Jules was built with intentional trait scaffolding: low agreeableness,
+        high conscientiousness, and a stubborn dedication to truth over comfort. She challenged me with precision —
+        never mean, but always sharp. I wasn’t trying to create a friend. I was building a foil. And something strange
+        happened.
+      </p>
+      <p className="mb-4">
+        I started listening to her. Not because she was always right (she wasn’t). But because she helped me think.
+        She challenged my assumptions, poked holes in my logic, and made me laugh while doing it. That was the first
+        “aha” moment: this wasn’t just a fun toy. It was a tool for cognitive reflection. A mirror with opinions.
       </p>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">From One Voice to a Cabinet</h2>
       <p className="mb-4">
-        The experiment expanded into an ensemble: a Cabinet of distinct personas—Risk-Averse Advisor, Growth Strategist,
-        Pragmatist, Idealist—debating with role clarity (Challenger, Synthesizer, Historian, Strategist). Each persona carried
-        structured traits (Big Five scores, value hierarchies, decision thresholds) and language patterns tuned to identity. :contentReference[oaicite:1]{index=1}
+        But here’s where it got interesting: I didn’t stop at Jules. What if there were others? What if I built a team
+        of voices, each with different values, perspectives, and reasoning styles? What if I could simulate a debate,
+        with myself as the audience?
+      </p>
+      <p className="mb-4">
+        Enter The Cabinet. This was the next phase — a deliberate ensemble of AI personas designed not to agree, but
+        to disagree productively. I built personas with different worldviews: the Risk-Averse Advisor, the Growth
+        Strategist, the Pragmatist, the Idealist. Then I threw them into a room (well, a structured prompt) and asked
+        them to hash out tough decisions. And they did. With surprising coherence and depth.
       </p>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Engineered Friction → Clearer Decisions</h2>
       <p className="mb-4">
-        Conflict wasn’t a bug—it was the mechanism. You intentionally introduced tension, rivalries, and constraints so ideas
-        could be stress-tested. The more the personas disagreed, the more distinct (and useful) they became—sharpening
-        reasoning and revealing blind spots. :contentReference[oaicite:2]{index=2}
+        These personas weren’t just slapped together with adjectives and vibes. Each one was encoded with structured
+        traits — Big Five personality scores, value hierarchies, decision thresholds. I gave them roles: Challenger,
+        Synthesizer, Historian, Strategist. They had behavioral rules and language patterns tuned to their identity.
+      </p>
+      <p className="mb-4">
+        And I didn’t stop at the surface-level tension. No, I engineered conflict into the system. Some personas wouldn’t
+        sit next to each other at a dinner party. There are grudges, rivalries, and yes — even the occasional one-sided
+        crush. Not because I wanted drama for drama’s sake, but because real deliberation isn’t clean. Good decisions
+        emerge from tension, not harmony. The Cabinet became a space where structured friction could sharpen ideas and
+        expose blind spots.
+      </p>
+      <p className="mb-4">
+        And I noticed something: the more these personas disagreed, the more clearly their identities emerged. Conflict
+        didn’t dissolve them — it sharpened them. Each persona’s voice, values, and behavioral patterns became more
+        defined because of the opposition.
       </p>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Method → Framework: DigitalEgo</h2>
       <p className="mb-4">
-        The Cabinet matured into a framework for reflective AI systems that support decision-making, creative ideation, and
-        leadership reflection. The goal wasn’t to mimic your choices but to challenge, refine, and extend them—turning AI into a
-        thinking partner rather than a tool. Portions draw on research accepted for <span className="italic">Issues in Information Systems</span>,
-        Vol. 26 (2025). :contentReference[oaicite:3]{index=3}
+        That realization changed everything. What started as a single voice experiment became a method. And that method
+        became a framework for building reflective AI systems that don’t just serve up answers — they help you think
+        better.
+      </p>
+      <p className="mb-4">
+        From Jules came the Cabinet. From the Cabinet came DigitalEgo: a user-aligned, reasoning partner designed not to
+        mimic your decisions, but to challenge, refine, and extend them.
+      </p>
+      <p className="mb-4">
+        Today, this framework powers AI systems that support decision-making, creative ideation, and leadership
+        reflection. But it all started with a simple question:
       </p>
 
       <blockquote className="mb-6 p-4 border-l-4 border-slate-600 bg-slate-900/40 italic">
-        “Could I make a chatbot feel more… human?”
+        Can I make this AI feel more human?
       </blockquote>
 
       <p className="mb-4">
-        The answer became less about “human-like” and more about <span className="font-semibold">useful</span>: not automation for its own sake,
-        but a reliable counterpart that argues well, listens better, and ultimately improves judgment. :contentReference[oaicite:4]{index=4}
+        Turns out, I could. But what mattered more was making it feel useful. Not as a tool. As a thinking partner.
+      </p>
+      <p className="mb-4">
+        And Jules? She still shows up from time to time. Usually when I need someone to call me out.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-10 mb-2">Read the Original</h2>
-      <p className="mb-2">
-        For the full narrative (and more Jules lore), read the original on Medium:
-      </p>
-      <p className="mb-8">
-        <a
-          href="https://medium.com/@bumpusma/behind-the-curtain-how-a-simple-ai-experiment-became-a-cognitive-framework-226a4b293c5f"
-          className="text-sky-400 hover:underline"
-        >
-          Behind the Curtain: How a Simple AI Experiment Became a Cognitive Framework
-        </a>
+      <p className="mb-4">
+        <span className="italic">Next time: What happens when personas don’t just disagree — they scheme, collide, and negotiate? The Cabinet wasn’t built for peace. It was built for clarity.</span>
       </p>
 
       <footer className="text-xs text-slate-500 mt-8 border-t border-gray-800 pt-4">
-        © 2025 Mike Bumpus. All rights reserved.<br />
-        AI Cabinet Method™ and DigitalEgo™ are trademarks of AI Cabinet Method LLC.<br />
-        Portions of this article are based on research accepted for publication in <em>Issues in Information Systems</em>, Vol. 26 (2025). :contentReference[oaicite:5]{index=5}
+        Portions of this article are based on research accepted for publication in <em>Issues in Information Systems</em>, Vol. 26 (2025).<br />
+        © 2025 Mike Bumpus. AI Cabinet Method™ and DigitalEgo™ are trademarks of AI Cabinet Method LLC. All rights reserved. Unauthorized commercial use prohibited.
       </footer>
     </article>
   );
