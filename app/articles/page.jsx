@@ -57,6 +57,18 @@ export default function ArticlesPage() {
           </p>
         </div>
       </div>
+
+      {/* External Medium link */}
+      <div className="mt-12 text-center">
+        <a
+          href="https://medium.com/@bumpusma"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-sky-400 hover:underline text-lg font-medium"
+        >
+          Read more on Medium →
+        </a>
+      </div>
     </section>
   );
 }
