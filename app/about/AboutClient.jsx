@@ -27,7 +27,7 @@ export default function AboutPage() {
         </p>
 
         <ul className="list-disc list-inside space-y-2 text-left mx-auto max-w-md">
-          <li><span className="font-semibold">Crewly</span>: an AI business support crew for small operators.</li>
+          <li><span className="font-semibold">Crewly</span>: an AI-driven support crew for small business.</li>
           <li><span className="font-semibold">90 Minute Expert</span>: rapid-learning AI tutors.</li>
           <li><span className="font-semibold">Baron von Boost</span>: a persona-driven motivational app.</li>
         </ul>
