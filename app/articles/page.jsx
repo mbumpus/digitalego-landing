@@ -8,6 +8,10 @@ export default function ArticlesPage() {
     <section className="max-w-4xl mx-auto px-6 py-12 text-white">
       <h1 className="text-4xl font-bold mb-8">Articles</h1>
       <div className="space-y-8">
+         <div>
+          <a href="/articles/behind-the-curtain" className="text-2xl font-semibold text-sky-400 hover:underline">
+            Behind the Curtain: How a Simple AI Experiment Became a Cognitive Framework
+          </a>
         <div>
           <a href="/articles/gen-2-ai" className="text-2xl font-semibold text-sky-400 hover:underline">
             What Comes After Copilot? The Rise of Gen 2 AI
