@@ -12,13 +12,9 @@ export default function LandingPage() {
           <div className="flex items-center gap-6">
             <Link href="/about" className="text-slate-400 hover:text-white transition-colors text-sm">About</Link>
             <Link href="/articles" className="text-slate-400 hover:text-white transition-colors text-sm">Articles</Link>
-            <a 
-              href="https://github.com/mbumpus/DigitalEgo_Canon" 
-              target="_blank"
-              className="text-slate-400 hover:text-white transition-colors text-sm"
-            >
+            <Link href="#canon" className="text-slate-400 hover:text-white transition-colors text-sm">
               Canon
-            </a>
+            </Link>
             <Link 
               href="/waitlist"
               className="bg-sky-600 hover:bg-sky-500 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors"
@@ -49,18 +45,17 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="https://github.com/mbumpus/DigitalEgo_Canon"
-              target="_blank"
-              className="bg-sky-600 hover:bg-sky-500 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
-              Explore the Canon
-            </a>
             <Link 
               href="#products"
-              className="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
+              className="bg-sky-600 hover:bg-sky-500 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
             >
               See Products
+            </Link>
+            <Link 
+              href="/waitlist"
+              className="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
+            >
+              Join Waitlist
             </Link>
           </div>
         </div>
@@ -206,7 +201,7 @@ export default function LandingPage() {
       </section>
 
       {/* The Canon */}
-      <section className="py-20 px-6 border-t border-slate-800">
+      <section id="canon" className="py-20 px-6 border-t border-slate-800">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -238,16 +233,15 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <a 
-                href="https://github.com/mbumpus/DigitalEgo_Canon"
-                target="_blank"
+              <Link 
+                href="/waitlist"
                 className="inline-flex items-center gap-2 mt-8 text-sky-400 hover:text-sky-300 transition-colors"
               >
-                Explore on GitHub
+                Request early access
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-6 font-mono text-sm">
@@ -320,7 +314,7 @@ export default function LandingPage() {
           <div className="flex items-center gap-6 text-sm text-slate-400">
             <Link href="/about" className="hover:text-white transition-colors">About</Link>
             <Link href="/articles" className="hover:text-white transition-colors">Articles</Link>
-            <a href="https://github.com/mbumpus/DigitalEgo_Canon" target="_blank" className="hover:text-white transition-colors">Canon</a>
+            <a href="#canon" className="hover:text-white transition-colors">Canon</a>
             <a href="https://me.dm/@mikebumpus" target="_blank" className="hover:text-white transition-colors">Mastodon</a>
           </div>
           
