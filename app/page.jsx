@@ -175,7 +175,7 @@ export default function LandingPage() {
               <p className="text-slate-400 text-sm mb-4">
                 Multi-persona voice assistant for Raspberry Pi. Downton Abbey-inspired household staff running locally.
               </p>
-              <span className="text-slate-500 text-sm">Shipping Q1 2026</span>
+              <span className="text-slate-500 text-sm">Shipping Q2 2026</span>
             </div>
 
             {/* ctx.studio */}
