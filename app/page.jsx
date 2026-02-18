@@ -11,10 +11,8 @@ export default function LandingPage() {
           </Link>
           <div className="flex items-center gap-6">
             <Link href="/about" className="text-slate-400 hover:text-white transition-colors text-sm">About</Link>
+            <Link href="/research" className="text-slate-400 hover:text-white transition-colors text-sm">Research</Link>
             <Link href="/articles" className="text-slate-400 hover:text-white transition-colors text-sm">Articles</Link>
-            <Link href="#canon" className="text-slate-400 hover:text-white transition-colors text-sm">
-              Canon
-            </Link>
             <Link 
               href="/waitlist"
               className="bg-sky-600 hover:bg-sky-500 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors"
@@ -28,20 +26,18 @@ export default function LandingPage() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-slate-800/50 border border-slate-700 rounded-full px-4 py-2 text-sm text-slate-400 mb-8">
-            <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
-            Shipping weekly
-          </div>
-          
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-            AI that mirrors
+            Research-driven AI
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300">how you think.</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300">for the builders.</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-10">
-            Multi-agent infrastructure for the agentic web. 
-            Persona-driven AI that augments, not replaces.
+          <p className="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-4">
+            AI that mirrors how you think. Multi-agent crews that amplify what you can do.
+          </p>
+          
+          <p className="text-lg text-slate-500 max-w-xl mx-auto mb-10">
+            Extension. Augmentation. Never replacement.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -49,25 +45,25 @@ export default function LandingPage() {
               href="#products"
               className="bg-sky-600 hover:bg-sky-500 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
             >
-              See Products
+              See What We're Building
             </Link>
             <Link 
-              href="/waitlist"
+              href="/research"
               className="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
             >
-              Join Waitlist
+              Read the Research
             </Link>
           </div>
         </div>
       </section>
 
-      {/* What We Build */}
+      {/* The Thesis */}
       <section className="py-20 px-6 border-t border-slate-800">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">The thesis</h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              AI shouldn't replace human thinking. It should reflect it.
+              The tools building the future belong to everyone.
             </p>
           </div>
 
@@ -78,10 +74,10 @@ export default function LandingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Multi-Agent Crews</h3>
+              <h3 className="text-xl font-semibold mb-3">AI Crews, Not Chatbots</h3>
               <p className="text-slate-400">
-                Assemble specialized agents that work together like colleagues. 
-                Each with distinct expertise, all sharing context.
+                Specialized agents that work together like colleagues. 
+                Distinct expertise, shared context. You don't prompt them — you collaborate.
               </p>
             </div>
 
@@ -91,23 +87,23 @@ export default function LandingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Governed Autonomy</h3>
+              <h3 className="text-xl font-semibold mb-3">Governed by Design</h3>
               <p className="text-slate-400">
-                AURA tiers control what agents can do. Traceable reasoning via ThoughtChain. 
-                Trust through transparency.
+                AURA tiers control what agents can do. ThoughtChain captures traceable reasoning. 
+                Not slogans — architecture.
               </p>
             </div>
 
             <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
               <div className="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mb-6">
                 <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Personal, Not Generic</h3>
+              <h3 className="text-xl font-semibold mb-3">Research-Backed</h3>
               <p className="text-slate-400">
-                Personas shaped by your preferences, context, and style. 
-                AI that feels like dialogue, not query resolution.
+                Peer-reviewed publications. Open frameworks. 
+                We publish our thinking so you can verify it.
               </p>
             </div>
           </div>
@@ -118,13 +114,35 @@ export default function LandingPage() {
       <section id="products" className="py-20 px-6 bg-slate-900/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What we're shipping</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">What we're building</h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              Products built on the DigitalEgo runtime. Shipping weekly.
+              AI crews for builders, learners, and everyone in between.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
+            {/* Crewly Codes */}
+            <a 
+              href="https://crewly.codes" 
+              target="_blank"
+              className="group bg-slate-800/30 border border-slate-800 hover:border-sky-500/50 rounded-2xl p-8 transition-colors"
+            >
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 bg-orange-500/10 rounded-xl flex items-center justify-center">
+                  <span className="text-orange-400 font-bold">CC</span>
+                </div>
+                <span className="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded-full">Live</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2 group-hover:text-sky-400 transition-colors">Crewly Codes</h3>
+              <p className="text-slate-400 text-sm mb-2">
+                AI crews for builders. Morgan decomposes your idea into specs. DevCrew writes the code. QA validates it.
+              </p>
+              <p className="text-slate-500 text-sm mb-4">
+                The spec is the product. The code is just the artifact.
+              </p>
+              <span className="text-sky-400 text-sm">crewly.codes →</span>
+            </a>
+
             {/* MWP */}
             <a 
               href="https://mwp.foundation" 
@@ -139,29 +157,28 @@ export default function LandingPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2 group-hover:text-sky-400 transition-colors">Machine Web Protocol</h3>
               <p className="text-slate-400 text-sm mb-4">
-                Open standard for AI-readable web content. A third of search traffic is agents — make sure they can see you.
+                Open standard for AI-readable web content. A third of search traffic is agents — make sure they can understand you.
               </p>
               <span className="text-sky-400 text-sm">mwp.foundation →</span>
             </a>
 
-            {/* Crewly Codes */}
-            <a 
-              href="https://crewly.codes" 
-              target="_blank"
-              className="group bg-slate-800/30 border border-slate-800 hover:border-sky-500/50 rounded-2xl p-8 transition-colors"
-            >
+            {/* Crewly ED */}
+            <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
               <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-orange-500/10 rounded-xl flex items-center justify-center">
-                  <span className="text-orange-400 font-bold">C</span>
+                <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center">
+                  <span className="text-blue-400 font-bold">ED</span>
                 </div>
-                <span className="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded-full">Live</span>
+                <span className="text-xs bg-yellow-500/10 text-yellow-400 px-2 py-1 rounded-full">Coming Soon</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2 group-hover:text-sky-400 transition-colors">Crewly Codes</h3>
-              <p className="text-slate-400 text-sm mb-4">
-                AI-powered project management with Morgan, your AI Product Manager. Kanban + specs + GitHub integration.
+              <h3 className="text-xl font-semibold mb-2">Crewly ED</h3>
+              <p className="text-slate-400 text-sm mb-2">
+                AI crews for learners. Personalized learning plans that adapt to how you think.
               </p>
-              <span className="text-sky-400 text-sm">crewly.codes →</span>
-            </a>
+              <p className="text-slate-500 text-sm mb-4">
+                The plan is the product. The knowledge is just the artifact.
+              </p>
+              <span className="text-slate-500 text-sm">2026</span>
+            </div>
 
             {/* Crewly Home */}
             <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
@@ -173,52 +190,33 @@ export default function LandingPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Crewly Home</h3>
               <p className="text-slate-400 text-sm mb-4">
-                Multi-persona voice assistant for Raspberry Pi. Downton Abbey-inspired household staff running locally.
+                AI crews for your home. Multi-persona voice assistant running locally on Raspberry Pi. Your data stays yours.
               </p>
-              <span className="text-slate-500 text-sm">Shipping Q2 2026</span>
+              <span className="text-slate-500 text-sm">2026</span>
             </div>
-
-            {/* ctx.studio */}
-            <a 
-              href="https://ctx.studio" 
-              target="_blank"
-              className="group bg-slate-800/30 border border-slate-800 hover:border-sky-500/50 rounded-2xl p-8 transition-colors"
-            >
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-pink-500/10 rounded-xl flex items-center justify-center">
-                  <span className="text-pink-400 font-bold">ctx</span>
-                </div>
-                <span className="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded-full">Live</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-2 group-hover:text-sky-400 transition-colors">Context Studio</h3>
-              <p className="text-slate-400 text-sm mb-4">
-                Build and manage context files for AI coding assistants. Structure your project knowledge.
-              </p>
-              <span className="text-sky-400 text-sm">ctx.studio →</span>
-            </a>
           </div>
         </div>
       </section>
 
-      {/* The Canon */}
-      <section id="canon" className="py-20 px-6 border-t border-slate-800">
+      {/* Research */}
+      <section id="research" className="py-20 px-6 border-t border-slate-800">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">The Canon</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">The Research</h2>
               <p className="text-slate-400 text-lg mb-6">
-                Open frameworks for building trustworthy AI systems. 
-                Our research, published.
+                Open frameworks and peer-reviewed publications. 
+                We publish our thinking so you can verify it.
               </p>
               
-              <div className="space-y-4">
+              <div className="space-y-4 mb-8">
                 <div className="flex gap-4 items-start">
                   <div className="w-10 h-10 bg-violet-500/10 rounded-lg flex items-center justify-center shrink-0">
                     <span className="text-violet-400 text-sm font-bold">A</span>
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">AURA</h3>
-                    <p className="text-slate-400 text-sm">Tiered autonomy framework. Supervised → Guided → Trusted. Risk-aware escalation.</p>
+                    <p className="text-slate-400 text-sm">Tiered autonomy framework. Supervised → Guided → Trusted. Risk-calibrated escalation.</p>
                   </div>
                 </div>
 
@@ -228,16 +226,24 @@ export default function LandingPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">ThoughtChain</h3>
-                    <p className="text-slate-400 text-sm">Traceable reasoning protocol. Stepwise logic capture, hashing, and audit trails.</p>
+                    <p className="text-slate-400 text-sm">Traceable reasoning protocol. Stepwise logic capture with audit trails.</p>
                   </div>
                 </div>
               </div>
 
+              <h3 className="font-semibold mb-3 text-slate-300">Publications</h3>
+              <ul className="space-y-2 text-slate-400 text-sm mb-6">
+                <li>• IEEE SoutheastCon 2026 — Consent mechanisms in multi-agent systems (forthcoming)</li>
+                <li>• IIS 2025 — From Prototype to Persona: AI Agents for Decision Support</li>
+                <li>• IIS 2024 — ML Applications in Commercial Building Management</li>
+                <li>• IIS 2021 — Multi-Factor Authentication Case Study (5 citations)</li>
+              </ul>
+
               <Link 
-                href="/waitlist"
-                className="inline-flex items-center gap-2 mt-8 text-sky-400 hover:text-sky-300 transition-colors"
+                href="/research"
+                className="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 transition-colors"
               >
-                Request early access
+                View all research
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
@@ -276,14 +282,30 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* Manifesto Excerpt */}
       <section className="py-20 px-6 bg-slate-900/30">
+        <div className="max-w-3xl mx-auto text-center">
+          <blockquote className="text-2xl md:text-3xl font-medium text-slate-200 mb-6 leading-relaxed">
+            "We could cut humans out. The technology exists. We choose not to."
+          </blockquote>
+          <p className="text-slate-400 text-lg mb-8">
+            The people are the point. AI that extends rather than replaces. 
+            Tools that belong to everyone.
+          </p>
+          <p className="text-slate-500">
+            — From the DigitalEgo Manifesto
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 px-6">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Build with us.
+            The future belongs to the builders.
           </h2>
           <p className="text-slate-400 text-lg mb-10">
-            The agentic web needs infrastructure. We're shipping it weekly.
+            We're building tools for the people who make things. Join us.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -313,8 +335,8 @@ export default function LandingPage() {
           
           <div className="flex items-center gap-6 text-sm text-slate-400">
             <Link href="/about" className="hover:text-white transition-colors">About</Link>
+            <Link href="/research" className="hover:text-white transition-colors">Research</Link>
             <Link href="/articles" className="hover:text-white transition-colors">Articles</Link>
-            <a href="#canon" className="hover:text-white transition-colors">Canon</a>
             <a href="https://me.dm/@mikebumpus" target="_blank" className="hover:text-white transition-colors">Mastodon</a>
           </div>
           
