@@ -5,36 +5,36 @@ export default function LandingPage() {
     <div className="min-h-screen">
       {/* Nav */}
       <nav className="fixed top-0 w-full z-50 bg-cloud-dancer/80 backdrop-blur-md">
-        <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
-          <Link href="/" className="text-ink font-semibold text-xl tracking-tight">
+        <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-5 flex justify-between items-center">
+          <Link href="/" className="text-ink font-semibold text-lg md:text-xl tracking-tight">
             DigitalEgo
           </Link>
-          <div className="flex items-center gap-8">
-            <Link href="/research" className="text-hematite hover:text-ink transition-colors text-sm">
+          <div className="flex items-center gap-4 md:gap-8">
+            <Link href="/research" className="hidden sm:block text-hematite hover:text-ink transition-colors text-sm">
               Research
             </Link>
-            <Link href="/articles" className="text-hematite hover:text-ink transition-colors text-sm">
+            <Link href="/articles" className="hidden sm:block text-hematite hover:text-ink transition-colors text-sm">
               Articles
             </Link>
-            <Link href="/about" className="text-hematite hover:text-ink transition-colors text-sm">
+            <Link href="/about" className="hidden md:block text-hematite hover:text-ink transition-colors text-sm">
               About
             </Link>
             <Link 
               href="/waitlist"
-              className="btn-primary text-sm"
+              className="bg-ink text-cloud-dancer px-4 py-2 md:px-6 md:py-3 rounded-full font-medium text-xs md:text-sm hover:bg-hematite transition-colors"
             >
-              Join Waitlist
+              Waitlist
             </Link>
           </div>
         </div>
       </nav>
 
       {/* Hero */}
-      <section className="pt-32 pb-20 px-6">
+      <section className="pt-24 md:pt-32 pb-12 md:pb-20 px-4 md:px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-start">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium leading-[1.1] tracking-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium leading-[1.15] tracking-tight">
                 AI{' '}
                 <span className="text-link decoration-baltic-sea">research</span>
                 {' '}and{' '}
@@ -43,7 +43,7 @@ export default function LandingPage() {
               </h1>
             </div>
             <div className="md:pt-4">
-              <p className="text-xl md:text-2xl text-hematite leading-relaxed">
+              <p className="text-lg md:text-xl lg:text-2xl text-hematite leading-relaxed">
                 We build AI that mirrors how you think. Multi-agent crews that amplify what you can do — extension, augmentation, never replacement.
               </p>
             </div>
@@ -52,32 +52,32 @@ export default function LandingPage() {
       </section>
 
       {/* Featured */}
-      <section className="px-6 pb-20">
+      <section className="px-4 md:px-6 pb-12 md:pb-20">
         <div className="max-w-6xl mx-auto">
-          <div className="card-featured p-8 md:p-12">
-            <span className="section-label text-cloud-dancer/60 mb-6 block">Featured</span>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="card-featured p-6 md:p-8 lg:p-12">
+            <span className="section-label text-cloud-dancer/60 mb-4 md:mb-6 block">Featured</span>
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-medium mb-4 text-cloud-dancer">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium mb-3 md:mb-4 text-cloud-dancer">
                   From Prototype to Persona
                 </h2>
-                <p className="text-cloud-dancer/70 text-lg mb-6">
+                <p className="text-cloud-dancer/70 text-base md:text-lg mb-4 md:mb-6">
                   AI agents for decision support and cognitive extension. Our latest peer-reviewed research on building AI that augments human thinking.
                 </p>
-                <span className="text-sm text-cloud-dancer/50">
+                <span className="text-xs md:text-sm text-cloud-dancer/50">
                   Issues in Information Systems, 2025
                 </span>
               </div>
-              <div className="flex justify-center">
+              <div className="flex justify-center order-first md:order-last">
                 <img 
                   src="/images/persona-layers-featured.png" 
                   alt="Abstract visualization of AI persona layers"
-                  className="w-64 h-64 object-contain"
+                  className="w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 object-contain"
                 />
               </div>
             </div>
-            <div className="mt-8 pt-8 border-t border-cloud-dancer/10">
-              <Link href="/research" className="text-cloud-dancer hover:text-white transition-colors inline-flex items-center gap-2">
+            <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-cloud-dancer/10">
+              <Link href="/research" className="text-cloud-dancer hover:text-white transition-colors inline-flex items-center gap-2 text-sm md:text-base">
                 Read the research
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -89,19 +89,19 @@ export default function LandingPage() {
       </section>
 
       {/* Products */}
-      <section className="py-20 px-6">
+      <section className="py-12 md:py-20 px-4 md:px-6">
         <div className="max-w-6xl mx-auto">
-          <span className="section-label mb-4 block">Our Products</span>
-          <h2 className="text-3xl md:text-4xl font-medium mb-12">
-            AI crews for builders, learners,<br />and everyone in between.
+          <span className="section-label mb-3 md:mb-4 block">Our Products</span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium mb-8 md:mb-12">
+            AI crews for builders, learners,<br className="hidden md:block" />and everyone in between.
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
             {/* Crewly Codes */}
             <a 
               href="https://crewly.codes" 
               target="_blank"
-              className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-baltic-sea to-blue-fusion p-8 flex flex-col justify-between"
+              className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-baltic-sea to-blue-fusion p-6 md:p-8 flex flex-col justify-between"
             >
               <div>
                 <span className="text-sm text-white/70 mb-2 block">Live</span>
@@ -122,7 +122,7 @@ export default function LandingPage() {
             <a 
               href="https://mwp.foundation" 
               target="_blank"
-              className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-quiet-violet to-hematite p-8 flex flex-col justify-between"
+              className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-quiet-violet to-hematite p-6 md:p-8 flex flex-col justify-between"
             >
               <div>
                 <span className="text-sm text-white/70 mb-2 block">Live</span>
@@ -140,7 +140,7 @@ export default function LandingPage() {
             </a>
 
             {/* Crewly ED */}
-            <div className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-veiled-vista to-baltic-sea/50 p-8 flex flex-col justify-between">
+            <div className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-veiled-vista to-baltic-sea/50 p-6 md:p-8 flex flex-col justify-between">
               <div>
                 <span className="text-sm text-ink/50 mb-2 block">Coming 2026</span>
                 <h3 className="text-2xl font-medium text-ink mb-2">Crewly ED</h3>
@@ -154,7 +154,7 @@ export default function LandingPage() {
             </div>
 
             {/* Crewly Home */}
-            <div className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-golden-mist/60 to-cloud-cover/40 p-8 flex flex-col justify-between">
+            <div className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-golden-mist/60 to-cloud-cover/40 p-6 md:p-8 flex flex-col justify-between">
               <div>
                 <span className="text-sm text-ink/50 mb-2 block">Coming 2026</span>
                 <h3 className="text-2xl font-medium text-ink mb-2">Crewly Home</h3>
