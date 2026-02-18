@@ -168,40 +168,40 @@ export default function ResearchPage() {
             </div>
 
             {/* IIS 2025 */}
-            <div className="py-6 border-b border-hematite/10">
+            <a href="https://doi.org/10.48009/1_iis_125" target="_blank" className="block py-6 border-b border-hematite/10 group">
               <div className="flex items-start gap-4 mb-3">
                 <span className="text-xs bg-veiled-vista/30 text-hematite px-3 py-1 rounded-full font-medium">2025</span>
                 <span className="text-hematite/60 text-sm">Issues in Information Systems 26(1)</span>
               </div>
-              <h3 className="text-lg font-medium text-ink mb-2">From Prototype to Persona: AI Agents for Decision Support and Cognitive Extension</h3>
+              <h3 className="text-lg font-medium text-ink mb-2 group-hover:text-blue-fusion transition-colors">From Prototype to Persona: AI Agents for Decision Support and Cognitive Extension</h3>
               <p className="text-hematite text-sm">
                 MA Bumpus. Research on AI agent design patterns for augmenting human decision-making.
               </p>
-            </div>
+            </a>
 
             {/* IIS 2024 */}
-            <div className="py-6 border-b border-hematite/10">
+            <a href="https://doi.org/10.48009/4_iis_2024_115" target="_blank" className="block py-6 border-b border-hematite/10 group">
               <div className="flex items-start gap-4 mb-3">
                 <span className="text-xs bg-baltic-sea/20 text-baltic-sea px-3 py-1 rounded-full font-medium">2024</span>
                 <span className="text-hematite/60 text-sm">Issues in Information Systems 25(4)</span>
               </div>
-              <h3 className="text-lg font-medium text-ink mb-2">A Survey of Machine Learning Applications in Commercial Building Management</h3>
+              <h3 className="text-lg font-medium text-ink mb-2 group-hover:text-blue-fusion transition-colors">A Survey of Machine Learning Applications in Commercial Building Management</h3>
               <p className="text-hematite text-sm">
                 MA Bumpus. Comprehensive review of ML deployment patterns in enterprise building systems.
               </p>
-            </div>
+            </a>
 
             {/* IIS 2021 */}
-            <div className="py-6">
+            <a href="https://doi.org/10.48009/3_iis_2021_69-80" target="_blank" className="block py-6 group">
               <div className="flex items-start gap-4 mb-3">
                 <span className="text-xs bg-hematite/10 text-hematite px-3 py-1 rounded-full font-medium">2021</span>
                 <span className="text-hematite/60 text-sm">Issues in Information Systems 22(3)</span>
               </div>
-              <h3 className="text-lg font-medium text-ink mb-2">A Case Study in Selection and Deployment of a Multi-Factor Authentication Solution</h3>
+              <h3 className="text-lg font-medium text-ink mb-2 group-hover:text-blue-fusion transition-colors">A Case Study in Selection and Deployment of a Multi-Factor Authentication Solution</h3>
               <p className="text-hematite text-sm">
                 EC Donald, MA Bumpus, X Zhang. Cited 5 times. Enterprise security implementation research.
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
