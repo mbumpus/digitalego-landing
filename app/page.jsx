@@ -274,11 +274,8 @@ export default function LandingPage() {
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <blockquote className="text-3xl md:text-4xl font-medium text-ink leading-snug mb-8">
-            "We could cut humans out. The technology exists. We choose not to."
+            "Extension. Augmentation. Never replacement."
           </blockquote>
-          <p className="text-xl text-hematite mb-4">
-            The people are the point. AI that extends rather than replaces. Tools that belong to everyone.
-          </p>
           <p className="text-hematite/60">
             — From the DigitalEgo Manifesto
           </p>
