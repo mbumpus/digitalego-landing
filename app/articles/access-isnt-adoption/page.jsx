@@ -21,7 +21,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <article className="max-w-3xl mx-auto py-12 px-4 text-white">
+    <article className="max-w-3xl mx-auto py-12 px-4 text-ink">
       <h1 className="text-4xl font-bold mb-4">
         Access Isn’t Adoption: Why Real AI Empowerment Starts With Identity, Not Just Availability
       </h1>
@@ -31,7 +31,7 @@ export default function Page() {
 		<img
 			src="/images/access-isnt-adoption-cover.png"
 			alt="Cover image for Access Isn’t Adoption article"
-			className="w-full rounded-xl shadow-lg mb-8"
+			className="w-full rounded-xl mb-8"
 		/>
 
       <p className="mb-4">DigitalEgo™ empowers alignment through persona-based design, not just automation.</p>
@@ -96,10 +96,10 @@ export default function Page() {
       <p className="mb-4">That’s not a user error. That’s a design flaw.</p>
       <p className="mb-4">It’s time for Gen 2 AI to grow up — and grow inward.</p>
 
-      <p className="mb-4">📬 Join the movement at <a href="https://digitalego.ai" className="text-sky-400 hover:underline">DigitalEgo.ai</a></p>
+      <p className="mb-4">📬 Join the movement at <a href="https://digitalego.ai" className="text-blue-fusion hover:underline">DigitalEgo.ai</a></p>
       <p className="mb-4">→ Follow for more on AI personas, identity systems, and the rise of reflective technology.</p>
 
-      <footer className="text-xs text-slate-500 mt-8 border-t border-gray-800 pt-4">
+      <footer className="text-xs text-hematite/60 mt-8 border-t border-hematite/10 pt-4">
         © 2025 Michael A. Bumpus. All rights reserved.<br />
         DigitalEgo™ and The AI Cabinet Method™ are trademarks of AI Cabinet Method LLC.<br />
         Jules™, Baron von Boost™, and all related AI personas are part of a proprietary modular AI framework designed to reflect human identity, values, and decision-making.<br />

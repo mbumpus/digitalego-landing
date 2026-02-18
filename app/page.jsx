@@ -2,20 +2,26 @@ import Link from 'next/link';
 
 export default function LandingPage() {
   return (
-    <div className="bg-[#061525] text-white min-h-screen">
+    <div className="min-h-screen">
       {/* Nav */}
-      <nav className="fixed top-0 w-full z-50 bg-[#061525]/80 backdrop-blur-md border-b border-slate-800">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-3">
-            <img src="/DigitalEgo_logo_TM_alt.png" alt="DigitalEgo" className="h-8" />
+      <nav className="fixed top-0 w-full z-50 bg-cloud-dancer/80 backdrop-blur-md">
+        <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+          <Link href="/" className="text-ink font-semibold text-xl tracking-tight">
+            DigitalEgo
           </Link>
-          <div className="flex items-center gap-6">
-            <Link href="/about" className="text-slate-400 hover:text-white transition-colors text-sm">About</Link>
-            <Link href="/research" className="text-slate-400 hover:text-white transition-colors text-sm">Research</Link>
-            <Link href="/articles" className="text-slate-400 hover:text-white transition-colors text-sm">Articles</Link>
+          <div className="flex items-center gap-8">
+            <Link href="/research" className="text-hematite hover:text-ink transition-colors text-sm">
+              Research
+            </Link>
+            <Link href="/articles" className="text-hematite hover:text-ink transition-colors text-sm">
+              Articles
+            </Link>
+            <Link href="/about" className="text-hematite hover:text-ink transition-colors text-sm">
+              About
+            </Link>
             <Link 
               href="/waitlist"
-              className="bg-sky-600 hover:bg-sky-500 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors"
+              className="btn-primary text-sm"
             >
               Join Waitlist
             </Link>
@@ -25,323 +31,335 @@ export default function LandingPage() {
 
       {/* Hero */}
       <section className="pt-32 pb-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-            Research-driven AI
-            <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300">for the builders.</span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-4">
-            AI that mirrors how you think. Multi-agent crews that amplify what you can do.
-          </p>
-          
-          <p className="text-lg text-slate-500 max-w-xl mx-auto mb-10">
-            Extension. Augmentation. Never replacement.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="#products"
-              className="bg-sky-600 hover:bg-sky-500 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
-              See What We're Building
-            </Link>
-            <Link 
-              href="/research"
-              className="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
-              Read the Research
-            </Link>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium leading-[1.1] tracking-tight">
+                AI{' '}
+                <span className="text-link decoration-baltic-sea">research</span>
+                {' '}and{' '}
+                <span className="text-link decoration-quiet-violet">products</span>
+                {' '}for the builders.
+              </h1>
+            </div>
+            <div className="md:pt-4">
+              <p className="text-xl md:text-2xl text-hematite leading-relaxed">
+                We build AI that mirrors how you think. Multi-agent crews that amplify what you can do — extension, augmentation, never replacement.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* The Thesis */}
-      <section className="py-20 px-6 border-t border-slate-800">
+      {/* Featured */}
+      <section className="px-6 pb-20">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">The thesis</h2>
-            <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              The tools building the future belong to everyone.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
-              <div className="w-12 h-12 bg-sky-500/10 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+          <div className="card-featured p-8 md:p-12">
+            <span className="section-label text-cloud-dancer/60 mb-6 block">Featured</span>
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-medium mb-4 text-cloud-dancer">
+                  From Prototype to Persona
+                </h2>
+                <p className="text-cloud-dancer/70 text-lg mb-6">
+                  AI agents for decision support and cognitive extension. Our latest peer-reviewed research on building AI that augments human thinking.
+                </p>
+                <span className="text-sm text-cloud-dancer/50">
+                  Issues in Information Systems, 2025
+                </span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">AI Crews, Not Chatbots</h3>
-              <p className="text-slate-400">
-                Specialized agents that work together like colleagues. 
-                Distinct expertise, shared context. You don't prompt them — you collaborate.
-              </p>
+              <div className="flex justify-center">
+                <div className="w-48 h-48 rounded-full bg-gradient-to-br from-baltic-sea/30 to-quiet-violet/30 flex items-center justify-center">
+                  <span className="text-6xl font-light text-cloud-dancer/20">IIS</span>
+                </div>
+              </div>
             </div>
-
-            <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
-              <div className="w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            <div className="mt-8 pt-8 border-t border-cloud-dancer/10">
+              <Link href="/research" className="text-cloud-dancer hover:text-white transition-colors inline-flex items-center gap-2">
+                Read the research
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Governed by Design</h3>
-              <p className="text-slate-400">
-                AURA tiers control what agents can do. ThoughtChain captures traceable reasoning. 
-                Not slogans — architecture.
-              </p>
-            </div>
-
-            <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
-              <div className="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Research-Backed</h3>
-              <p className="text-slate-400">
-                Peer-reviewed publications. Open frameworks. 
-                We publish our thinking so you can verify it.
-              </p>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
       {/* Products */}
-      <section id="products" className="py-20 px-6 bg-slate-900/30">
+      <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What we're building</h2>
-            <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              AI crews for builders, learners, and everyone in between.
-            </p>
-          </div>
+          <span className="section-label mb-4 block">Our Products</span>
+          <h2 className="text-3xl md:text-4xl font-medium mb-12">
+            AI crews for builders, learners,<br />and everyone in between.
+          </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Crewly Codes */}
             <a 
               href="https://crewly.codes" 
               target="_blank"
-              className="group bg-slate-800/30 border border-slate-800 hover:border-sky-500/50 rounded-2xl p-8 transition-colors"
+              className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-baltic-sea to-blue-fusion p-8 flex flex-col justify-between"
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-orange-500/10 rounded-xl flex items-center justify-center">
-                  <span className="text-orange-400 font-bold">CC</span>
-                </div>
-                <span className="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded-full">Live</span>
+              <div>
+                <span className="text-sm text-white/70 mb-2 block">Live</span>
+                <h3 className="text-2xl font-medium text-white mb-2">Crewly Codes</h3>
+                <p className="text-white/80">
+                  AI crews for builders. Morgan decomposes your idea into specs. DevCrew writes the code. QA validates it.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-2 group-hover:text-sky-400 transition-colors">Crewly Codes</h3>
-              <p className="text-slate-400 text-sm mb-2">
-                AI crews for builders. Morgan decomposes your idea into specs. DevCrew writes the code. QA validates it.
-              </p>
-              <p className="text-slate-500 text-sm mb-4">
-                The spec is the product. The code is just the artifact.
-              </p>
-              <span className="text-sky-400 text-sm">crewly.codes →</span>
+              <div className="flex items-center gap-2 text-white">
+                <span className="text-sm font-medium">Explore</span>
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </div>
             </a>
 
             {/* MWP */}
             <a 
               href="https://mwp.foundation" 
               target="_blank"
-              className="group bg-slate-800/30 border border-slate-800 hover:border-sky-500/50 rounded-2xl p-8 transition-colors"
+              className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-quiet-violet to-hematite p-8 flex flex-col justify-between"
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-violet-500/10 rounded-xl flex items-center justify-center">
-                  <span className="text-violet-400 font-bold">M</span>
-                </div>
-                <span className="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded-full">Live</span>
+              <div>
+                <span className="text-sm text-white/70 mb-2 block">Live</span>
+                <h3 className="text-2xl font-medium text-white mb-2">Machine Web Protocol</h3>
+                <p className="text-white/80">
+                  Open standard for AI-readable web content. A third of search traffic is agents — make sure they understand you.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-2 group-hover:text-sky-400 transition-colors">Machine Web Protocol</h3>
-              <p className="text-slate-400 text-sm mb-4">
-                Open standard for AI-readable web content. A third of search traffic is agents — make sure they can understand you.
-              </p>
-              <span className="text-sky-400 text-sm">mwp.foundation →</span>
+              <div className="flex items-center gap-2 text-white">
+                <span className="text-sm font-medium">Explore</span>
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </div>
             </a>
 
             {/* Crewly ED */}
-            <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center">
-                  <span className="text-blue-400 font-bold">ED</span>
-                </div>
-                <span className="text-xs bg-yellow-500/10 text-yellow-400 px-2 py-1 rounded-full">Coming Soon</span>
+            <div className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-veiled-vista to-baltic-sea/50 p-8 flex flex-col justify-between">
+              <div>
+                <span className="text-sm text-ink/50 mb-2 block">Coming 2026</span>
+                <h3 className="text-2xl font-medium text-ink mb-2">Crewly ED</h3>
+                <p className="text-ink/70">
+                  AI crews for learners. Personalized learning plans that adapt to how you think. The plan is the product.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Crewly ED</h3>
-              <p className="text-slate-400 text-sm mb-2">
-                AI crews for learners. Personalized learning plans that adapt to how you think.
-              </p>
-              <p className="text-slate-500 text-sm mb-4">
-                The plan is the product. The knowledge is just the artifact.
-              </p>
-              <span className="text-slate-500 text-sm">2026</span>
+              <div className="flex items-center gap-2 text-ink/50">
+                <span className="text-sm font-medium">Join waitlist</span>
+              </div>
             </div>
 
             {/* Crewly Home */}
-            <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-8">
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-teal-500/10 rounded-xl flex items-center justify-center">
-                  <span className="text-teal-400 font-bold">H</span>
-                </div>
-                <span className="text-xs bg-yellow-500/10 text-yellow-400 px-2 py-1 rounded-full">Coming Soon</span>
+            <div className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-br from-golden-mist/60 to-cloud-cover/40 p-8 flex flex-col justify-between">
+              <div>
+                <span className="text-sm text-ink/50 mb-2 block">Coming 2026</span>
+                <h3 className="text-2xl font-medium text-ink mb-2">Crewly Home</h3>
+                <p className="text-ink/70">
+                  AI crews for your home. Multi-persona voice assistant running locally on Raspberry Pi. Your data stays yours.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Crewly Home</h3>
-              <p className="text-slate-400 text-sm mb-4">
-                AI crews for your home. Multi-persona voice assistant running locally on Raspberry Pi. Your data stays yours.
-              </p>
-              <span className="text-slate-500 text-sm">2026</span>
+              <div className="flex items-center gap-2 text-ink/50">
+                <span className="text-sm font-medium">Join waitlist</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Research */}
-      <section id="research" className="py-20 px-6 border-t border-slate-800">
+      <section className="py-20 px-6 border-t border-hematite/10">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">The Research</h2>
-              <p className="text-slate-400 text-lg mb-6">
-                Open frameworks and peer-reviewed publications. 
-                We publish our thinking so you can verify it.
+              <span className="section-label mb-4 block">The Research</span>
+              <h2 className="text-3xl md:text-4xl font-medium mb-6">
+                Open frameworks.<br />Peer-reviewed publications.
+              </h2>
+              <p className="text-hematite text-lg mb-8">
+                We publish our thinking so you can verify it. Not slogans — architecture.
               </p>
-              
-              <div className="space-y-4 mb-8">
-                <div className="flex gap-4 items-start">
-                  <div className="w-10 h-10 bg-violet-500/10 rounded-lg flex items-center justify-center shrink-0">
-                    <span className="text-violet-400 text-sm font-bold">A</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">AURA</h3>
-                    <p className="text-slate-400 text-sm">Tiered autonomy framework. Supervised → Guided → Trusted. Risk-calibrated escalation.</p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4 items-start">
-                  <div className="w-10 h-10 bg-cyan-500/10 rounded-lg flex items-center justify-center shrink-0">
-                    <span className="text-cyan-400 text-sm font-bold">TC</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">ThoughtChain</h3>
-                    <p className="text-slate-400 text-sm">Traceable reasoning protocol. Stepwise logic capture with audit trails.</p>
-                  </div>
-                </div>
-              </div>
-
-              <h3 className="font-semibold mb-3 text-slate-300">Publications</h3>
-              <ul className="space-y-2 text-slate-400 text-sm mb-6">
-                <li>• IEEE SoutheastCon 2026 — Consent mechanisms in multi-agent systems (forthcoming)</li>
-                <li>• IIS 2025 — From Prototype to Persona: AI Agents for Decision Support</li>
-                <li>• IIS 2024 — ML Applications in Commercial Building Management</li>
-                <li>• IIS 2021 — Multi-Factor Authentication Case Study (5 citations)</li>
-              </ul>
-
-              <Link 
-                href="/research"
-                className="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 transition-colors"
-              >
+              <Link href="/research" className="btn-secondary inline-flex items-center gap-2">
                 View all research
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </Link>
             </div>
-
-            <div className="bg-slate-800/30 border border-slate-800 rounded-2xl p-6 font-mono text-sm">
-              <div className="flex items-center gap-2 mb-4 text-slate-500">
-                <div className="w-3 h-3 rounded-full bg-red-500/50"></div>
-                <div className="w-3 h-3 rounded-full bg-yellow-500/50"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500/50"></div>
-                <span className="ml-2">aura_policy.yaml</span>
+            
+            <div className="space-y-6">
+              {/* AURA */}
+              <div className="card p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-quiet-violet/20 flex items-center justify-center shrink-0">
+                    <span className="text-quiet-violet font-semibold">A</span>
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-ink mb-1">AURA</h3>
+                    <p className="text-sm text-hematite">
+                      Tiered autonomy framework. Supervised → Guided → Trusted. Risk-calibrated escalation.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <pre className="text-slate-300 overflow-x-auto">
-{`aura_policy:
-  default_tier: 2
-  tier_definitions:
-    - tier: 1
-      label: "Supervised"
-      constraints:
-        - "Require confirmation"
-        - "No final actions"
-    - tier: 2
-      label: "Guided Autonomy"
-      constraints:
-        - "Recommend with rationale"
-        - "Log decisions"
-    - tier: 3
-      label: "Trusted Execution"
-      constraints:
-        - "Act with justification"
-        - "Post-action audit"`}
-              </pre>
+
+              {/* ThoughtChain */}
+              <div className="card p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-baltic-sea/20 flex items-center justify-center shrink-0">
+                    <span className="text-baltic-sea font-semibold">TC</span>
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-ink mb-1">ThoughtChain</h3>
+                    <p className="text-sm text-hematite">
+                      Traceable reasoning protocol. Stepwise logic capture with audit trails.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* RSI */}
+              <div className="card p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-golden-mist/30 flex items-center justify-center shrink-0">
+                    <span className="text-hematite font-semibold">RSI</span>
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-ink mb-1">Risk-Stratified Instruction</h3>
+                    <p className="text-sm text-hematite">
+                      Orchestration-layer self-improvement preserving governance and oversight.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Manifesto Excerpt */}
-      <section className="py-20 px-6 bg-slate-900/30">
-        <div className="max-w-3xl mx-auto text-center">
-          <blockquote className="text-2xl md:text-3xl font-medium text-slate-200 mb-6 leading-relaxed">
+      {/* Publications List */}
+      <section className="py-12 px-6">
+        <div className="max-w-6xl mx-auto">
+          <span className="section-label mb-8 block">Latest Publications</span>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="card p-6">
+              <span className="text-xs text-quiet-violet font-medium mb-3 block">Forthcoming</span>
+              <h3 className="font-medium text-ink mb-2">Consent Mechanisms in Multi-Agent Systems</h3>
+              <p className="text-sm text-hematite mb-4">Dynamic consent protocols for human-AI collaborative development.</p>
+              <span className="text-xs text-hematite/60">IEEE SoutheastCon 2026</span>
+            </div>
+
+            <div className="card p-6">
+              <span className="text-xs text-veiled-vista font-medium mb-3 block">2025</span>
+              <h3 className="font-medium text-ink mb-2">From Prototype to Persona</h3>
+              <p className="text-sm text-hematite mb-4">AI agents for decision support and cognitive extension.</p>
+              <span className="text-xs text-hematite/60">Issues in Information Systems 26(1)</span>
+            </div>
+
+            <div className="card p-6">
+              <span className="text-xs text-baltic-sea font-medium mb-3 block">2024</span>
+              <h3 className="font-medium text-ink mb-2">ML in Building Management</h3>
+              <p className="text-sm text-hematite mb-4">A survey of machine learning applications in commercial buildings.</p>
+              <span className="text-xs text-hematite/60">Issues in Information Systems 25(4)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Manifesto */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <blockquote className="text-3xl md:text-4xl font-medium text-ink leading-snug mb-8">
             "We could cut humans out. The technology exists. We choose not to."
           </blockquote>
-          <p className="text-slate-400 text-lg mb-8">
-            The people are the point. AI that extends rather than replaces. 
-            Tools that belong to everyone.
+          <p className="text-xl text-hematite mb-4">
+            The people are the point. AI that extends rather than replaces. Tools that belong to everyone.
           </p>
-          <p className="text-slate-500">
+          <p className="text-hematite/60">
             — From the DigitalEgo Manifesto
           </p>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 px-6">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            The future belongs to the builders.
-          </h2>
-          <p className="text-slate-400 text-lg mb-10">
-            We're building tools for the people who make things. Join us.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/waitlist"
-              className="bg-sky-600 hover:bg-sky-500 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
-              Join the Waitlist
-            </Link>
-            <a 
-              href="https://github.com/mbumpus"
-              target="_blank"
-              className="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
-              Follow on GitHub
-            </a>
+      {/* Mission Links (Anthropic-style) */}
+      <section className="py-12 px-6 border-t border-hematite/10">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-[1fr,2fr] gap-12">
+            <div>
+              <h2 className="text-2xl font-medium text-ink">
+                The future belongs<br />to the builders.
+              </h2>
+            </div>
+            <div className="space-y-0">
+              <Link href="/research" className="flex justify-between items-center py-4 border-b border-hematite/10 group">
+                <span className="text-ink group-hover:text-blue-fusion transition-colors">AURA Framework</span>
+                <span className="text-sm text-hematite/60">Governance</span>
+              </Link>
+              <Link href="/research" className="flex justify-between items-center py-4 border-b border-hematite/10 group">
+                <span className="text-ink group-hover:text-blue-fusion transition-colors">ThoughtChain Protocol</span>
+                <span className="text-sm text-hematite/60">Transparency</span>
+              </Link>
+              <Link href="/articles" className="flex justify-between items-center py-4 border-b border-hematite/10 group">
+                <span className="text-ink group-hover:text-blue-fusion transition-colors">Articles & Insights</span>
+                <span className="text-sm text-hematite/60">Thinking</span>
+              </Link>
+              <Link href="/about" className="flex justify-between items-center py-4 border-b border-hematite/10 group">
+                <span className="text-ink group-hover:text-blue-fusion transition-colors">About DigitalEgo</span>
+                <span className="text-sm text-hematite/60">Company</span>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 border-t border-slate-800">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-3">
-            <img src="/DigitalEgo_logo_TM_alt.png" alt="DigitalEgo" className="h-6" />
+      <footer className="py-16 px-6 bg-ink text-cloud-dancer">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-12 mb-12">
+            <div>
+              <span className="text-xl font-semibold tracking-tight mb-4 block">DigitalEgo</span>
+              <p className="text-cloud-dancer/60 text-sm">
+                Research-driven AI for the builders.
+              </p>
+            </div>
+            
+            <div>
+              <span className="text-sm font-medium mb-4 block text-cloud-dancer/40 uppercase tracking-wider">Products</span>
+              <div className="space-y-3">
+                <a href="https://crewly.codes" target="_blank" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">Crewly Codes</a>
+                <a href="https://mwp.foundation" target="_blank" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">Machine Web Protocol</a>
+                <span className="block text-cloud-dancer/40 text-sm">Crewly ED (Coming)</span>
+                <span className="block text-cloud-dancer/40 text-sm">Crewly Home (Coming)</span>
+              </div>
+            </div>
+            
+            <div>
+              <span className="text-sm font-medium mb-4 block text-cloud-dancer/40 uppercase tracking-wider">Research</span>
+              <div className="space-y-3">
+                <Link href="/research" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">Frameworks</Link>
+                <Link href="/research" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">Publications</Link>
+                <a href="https://orcid.org/0000-0002-1545-6508" target="_blank" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">ORCID Profile</a>
+              </div>
+            </div>
+            
+            <div>
+              <span className="text-sm font-medium mb-4 block text-cloud-dancer/40 uppercase tracking-wider">Company</span>
+              <div className="space-y-3">
+                <Link href="/about" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">About</Link>
+                <Link href="/articles" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">Articles</Link>
+                <a href="https://github.com/mbumpus" target="_blank" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">GitHub</a>
+                <a href="https://me.dm/@mikebumpus" target="_blank" className="block text-cloud-dancer/80 hover:text-cloud-dancer transition-colors text-sm">Mastodon</a>
+              </div>
+            </div>
           </div>
           
-          <div className="flex items-center gap-6 text-sm text-slate-400">
-            <Link href="/about" className="hover:text-white transition-colors">About</Link>
-            <Link href="/research" className="hover:text-white transition-colors">Research</Link>
-            <Link href="/articles" className="hover:text-white transition-colors">Articles</Link>
-            <a href="https://me.dm/@mikebumpus" target="_blank" className="hover:text-white transition-colors">Mastodon</a>
-          </div>
-          
-          <div className="text-sm text-slate-500">
-            © 2026 AI Cabinet Method LLC
+          <div className="pt-8 border-t border-cloud-dancer/10 flex flex-col md:flex-row justify-between items-center gap-4">
+            <span className="text-sm text-cloud-dancer/40">© 2026 AI Cabinet Method LLC</span>
+            <div className="flex items-center gap-6 text-sm text-cloud-dancer/40">
+              <Link href="/waitlist" className="hover:text-cloud-dancer transition-colors">Join Waitlist</Link>
+            </div>
           </div>
         </div>
       </footer>

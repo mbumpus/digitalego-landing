@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cloud-dancer text-hematite antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-ink font-medium;
+  }
+  
+  a {
+    @apply text-blue-fusion hover:text-ink transition-colors;
+  }
+}
+
+@layer components {
+  .text-link {
+    @apply underline decoration-1 underline-offset-4 hover:decoration-2;
+  }
+  
+  .card {
+    @apply bg-white/60 backdrop-blur-sm border border-hematite/10 rounded-2xl;
+  }
+  
+  .card-featured {
+    @apply bg-ink text-cloud-dancer rounded-2xl overflow-hidden;
+  }
+  
+  .btn-primary {
+    @apply bg-ink text-cloud-dancer px-6 py-3 rounded-full font-medium hover:bg-hematite transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent text-ink px-6 py-3 rounded-full font-medium border border-ink/20 hover:border-ink/40 transition-colors;
+  }
+  
+  .section-label {
+    @apply text-sm uppercase tracking-wider text-hematite/60 font-medium;
+  }
+}
+
+/* Smooth transitions for interactive elements */
+@layer utilities {
+  .transition-smooth {
+    @apply transition-all duration-300 ease-out;
+  }
+}

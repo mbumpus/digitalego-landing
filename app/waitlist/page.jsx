@@ -1,9 +1,9 @@
 import dynamic from 'next/dynamic';
 
 export const metadata = {
-  title: 'Waitlist | Be Among the First to Experience Synthetic Enablement™',
+  title: 'Join the Waitlist | DigitalEgo',
   description:
-    'Join the DigitalEgo waitlist and be first in line to explore how DigitalEgo can change the way you *do* AI.',
+    'Be among the first to build with research-driven AI. Join the DigitalEgo waitlist.',
 };
 
 const ClientWaitlist = dynamic(() => import('./ClientWaitlist'), { ssr: false });

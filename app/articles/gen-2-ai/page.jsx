@@ -8,13 +8,13 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <article className="max-w-3xl mx-auto py-12 px-4 text-white">
+    <article className="max-w-3xl mx-auto py-12 px-4 text-ink">
       <h1 className="text-4xl font-bold mb-4">What Comes After Copilot: The Rise of Gen 2 AI</h1>
       <p className="text-sm italic mb-6">Originally published on Medium. Republished here with permission by the author.</p>
       <img
         src="/images/gen-2-ai-cover.png"
         alt="Cover image for Gen 2 AI article"
-        className="w-full rounded-xl shadow-lg mb-8"
+        className="w-full rounded-xl mb-8"
        />
 
       <p className="mb-4">Gen 1 AI tools made us faster. Gen 2 AI tools will make us wiser.</p>
@@ -71,7 +71,7 @@ export default function Page() {
       <p className="mb-4">That’s Gen 2.</p>
       <p className="mb-4"><strong>Let’s define it before someone flattens it.</strong></p>
 
-      <footer className="text-xs text-slate-500 mt-8 border-t border-gray-800 pt-4">
+      <footer className="text-xs text-hematite/60 mt-8 border-t border-hematite/10 pt-4">
         © 2025 AI Cabinet Method LLC. All rights reserved.<br />
         “DigitalEgo™,” “AI Cabinet™,” and “Jules™” are trademarks of AI Cabinet Method LLC.<br />
         The trait architecture, persona schema, and deliberative frameworks described herein are part of a protected intellectual property portfolio.<br />

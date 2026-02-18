@@ -22,13 +22,13 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <article className="max-w-3xl mx-auto py-12 px-4 text-white">
+    <article className="max-w-3xl mx-auto py-12 px-4 text-ink">
       <h1 className="text-4xl font-bold mb-4">Don’t Engineer Prompts. Recruit Personalities.</h1>
       <p className="text-sm italic mb-6">Originally published on Medium. Republished here with permission by the author.</p>
 			<img
 			src="/images/recruit-personalities-cover.jpg"
 			alt="Cover image for Recruit Personalities article"
-			className="w-full rounded-xl shadow-lg mb-8"
+			className="w-full rounded-xl mb-8"
 			/>
       <p className="mb-4">Most people approach prompt engineering like it’s spellcasting. Use the right incantation, and magic happens.</p>
       <p className="mb-4">But prompts aren’t the problem. The interface is. We’re still talking to models like they’re single-minded servants—instead of building systems that think like collaborators, mentors, teammates, advisors.</p>
@@ -65,7 +65,7 @@ export default function Page() {
       <p className="mb-4">Stop trying to write the perfect prompt. Start recruiting better personalities.</p>
       <p className="mb-4">If your AI doesn’t know how to think *with* you, it’s not ready to work *for* you.</p>
 
-      <footer className="text-xs text-slate-500 mt-8 border-t border-gray-800 pt-4">
+      <footer className="text-xs text-hematite/60 mt-8 border-t border-hematite/10 pt-4">
         © 2025 Michael A. Bumpus. All rights reserved.<br />
         DigitalEgo™, Jules™, Baron von Boost™, and The AI Cabinet Method™ are trademarks of AI Cabinet Method LLC.<br />
         These personas are part of a proprietary modular identity framework designed to support reflective AI interaction.<br />

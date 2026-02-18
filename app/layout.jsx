@@ -1,9 +1,9 @@
 import '../styles/globals.css';
 
 export const metadata = {
-  title: 'DigitalEgo — AI Infrastructure for the Agentic Web',
-  description: 'Multi-agent infrastructure for the agentic web. Persona-driven AI that augments, not replaces. Building AURA, ThoughtChain, and products like MWP and Crewly.',
-  keywords: 'DigitalEgo, AI agents, multi-agent, persona AI, AURA, ThoughtChain, MWP, Crewly, agentic web',
+  title: 'DigitalEgo — Research-driven AI for the builders',
+  description: 'AI that mirrors how you think. Multi-agent crews that amplify what you can do. Extension, augmentation, never replacement.',
+  keywords: 'DigitalEgo, AI agents, multi-agent, persona AI, AURA, ThoughtChain, MWP, Crewly, AI research',
   author: 'AI Cabinet Method LLC',
 };
 
@@ -21,16 +21,16 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="DigitalEgo — AI that mirrors how you think" />
-        <meta property="og:description" content="Multi-agent infrastructure for the agentic web. Persona-driven AI that augments, not replaces." />
+        <meta property="og:title" content="DigitalEgo — Research-driven AI for the builders" />
+        <meta property="og:description" content="AI that mirrors how you think. Multi-agent crews that amplify what you can do. Extension, augmentation, never replacement." />
         <meta property="og:image" content="https://digitalego.ai/og-image.png" />
         <meta property="og:url" content="https://digitalego.ai" />
         <meta property="og:type" content="website" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DigitalEgo — AI that mirrors how you think" />
-        <meta name="twitter:description" content="Multi-agent infrastructure for the agentic web. Shipping weekly." />
+        <meta name="twitter:title" content="DigitalEgo — Research-driven AI for the builders" />
+        <meta name="twitter:description" content="AI that mirrors how you think. Multi-agent crews that amplify what you can do." />
         <meta name="twitter:image" content="https://digitalego.ai/og-image.png" />
 
         {/* Structured Data - JSON-LD */}
@@ -44,10 +44,11 @@ export default function RootLayout({ children }) {
               legalName: 'AI Cabinet Method LLC',
               url: 'https://digitalego.ai',
               logo: 'https://digitalego.ai/favicon.svg',
-              description: 'Multi-agent infrastructure for the agentic web',
+              description: 'Research-driven AI for the builders',
               sameAs: [
                 'https://github.com/mbumpus',
-                'https://me.dm/@mikebumpus'
+                'https://me.dm/@mikebumpus',
+                'https://orcid.org/0000-0002-1545-6508'
               ]
             }),
           }}
@@ -58,7 +59,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </head>
-      <body className="min-h-screen bg-[#061525] text-white font-[Inter,system-ui,sans-serif]">
+      <body className="min-h-screen bg-cloud-dancer text-hematite font-[Inter,system-ui,sans-serif]">
         {children}
       </body>
     </html>
