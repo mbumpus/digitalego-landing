@@ -228,9 +228,9 @@ export default function LandingPage() {
                     <span className="text-hematite font-semibold">RSI</span>
                   </div>
                   <div>
-                    <h3 className="font-medium text-ink mb-1">Risk-Stratified Instruction</h3>
+                    <h3 className="font-medium text-ink mb-1">Orchestration-Layer RSI</h3>
                     <p className="text-sm text-hematite">
-                      Orchestration-layer self-improvement preserving governance and oversight.
+                      Recursive self-improvement at the orchestration layer, preserving governance and oversight.
                     </p>
                   </div>
                 </div>

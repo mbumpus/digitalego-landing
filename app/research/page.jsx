@@ -119,13 +119,13 @@ export default function ResearchPage() {
                   <span className="text-hematite font-semibold text-xl">RSI</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-medium text-ink mb-1">Risk-Stratified Instruction</h3>
-                  <p className="text-hematite/60 text-sm">Orchestration-Layer Self-Improvement</p>
+                  <h3 className="text-xl font-medium text-ink mb-1">Recursive Self-Improvement at the Orchestration Layer</h3>
+                  <p className="text-hematite/60 text-sm">An Alternative Architecture for Autonomous Agent Evolution</p>
                 </div>
               </div>
               <p className="text-hematite">
-                Recursive self-improvement implemented at the orchestration layer rather than the model level. 
-                Preserves governance and human oversight while enabling adaptive behavior.
+                Autonomous agents that monitor output quality, detect degradation, and generate successor agents — achieving 
+                progressive improvement while preserving human oversight, audit capability, and governance integrity.
               </p>
               <div className="mt-4 inline-flex items-center gap-2 text-sm text-golden-mist">
                 <span className="w-2 h-2 bg-golden-mist rounded-full"></span>
@@ -161,9 +161,9 @@ export default function ResearchPage() {
                 <span className="text-xs bg-golden-mist/30 text-hematite px-3 py-1 rounded-full font-medium">Pending</span>
                 <span className="text-hematite/60 text-sm">arXiv preprint</span>
               </div>
-              <h3 className="text-lg font-medium text-ink mb-2">Risk-Stratified Instruction for Orchestration-Layer RSI</h3>
+              <h3 className="text-lg font-medium text-ink mb-2">Recursive Self-Improvement at the Orchestration Layer</h3>
               <p className="text-hematite text-sm">
-                Recursive self-improvement at the orchestration layer, preserving governance and human oversight.
+                An alternative architecture for autonomous agent evolution — achieving RSI outcomes while preserving governance integrity.
               </p>
             </div>
 
