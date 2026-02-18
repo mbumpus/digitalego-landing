@@ -29,10 +29,10 @@ export default function WaitlistPage() {
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-medium tracking-tight mb-4 text-center">
-            Join the Waitlist
+            Newsletter
           </h1>
           <p className="text-hematite text-center text-lg mb-12">
-            Be among the first to build with research-driven AI.
+            Research updates, product launches, no spam.
           </p>
 
           <div className="card p-8">
@@ -63,7 +63,7 @@ export default function WaitlistPage() {
                     <textarea name='Description' rows='4' class='w-full p-3 border border-hematite/20 rounded-lg mb-6 bg-cloud-dancer focus:border-baltic-sea focus:outline-none transition-colors resize-none'></textarea>
 
                     <button type='submit' class='w-full bg-ink text-cloud-dancer py-3 px-6 rounded-full font-medium hover:bg-hematite transition-colors'>
-                      Join Waitlist
+                      Subscribe
                     </button>
                   </form>
                 `,
@@ -72,7 +72,7 @@ export default function WaitlistPage() {
           </div>
 
           <p className="text-center text-hematite/60 text-sm mt-8">
-            We'll reach out when it's your turn.
+            We respect your inbox. Unsubscribe anytime.
           </p>
         </div>
       </section>

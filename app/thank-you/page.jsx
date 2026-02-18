@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Thank You | DigitalEgo',
-  description: 'Thanks for joining the DigitalEgo waitlist.',
+  description: 'Thanks for subscribing to the DigitalEgo newsletter.',
 };
 
 export default function ThankYouPage() {
@@ -12,11 +12,10 @@ export default function ThankYouPage() {
         Thank You
       </h1>
       <p className="text-xl md:text-2xl max-w-xl text-hematite mb-6">
-        You're on the list.
+        You're subscribed.
       </p>
       <p className="text-base max-w-lg text-hematite/70 mb-10">
-        We'll reach out when it's your turn to build with research-driven AI. 
-        Keep an eye on your inbox.
+        You'll get research updates, product launches, and insights on building AI that amplifies human thinking.
       </p>
 
       <Link

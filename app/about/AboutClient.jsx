@@ -25,7 +25,7 @@ export default function AboutClient() {
               href="/waitlist"
               className="btn-primary text-sm"
             >
-              Join Waitlist
+              Newsletter
             </Link>
           </div>
         </div>

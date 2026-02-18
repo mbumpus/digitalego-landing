@@ -23,7 +23,7 @@ export default function LandingPage() {
               href="/waitlist"
               className="bg-ink text-cloud-dancer px-4 py-2 md:px-6 md:py-3 rounded-full font-medium text-xs md:text-sm hover:bg-hematite transition-colors"
             >
-              Waitlist
+              Newsletter
             </Link>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="flex items-center gap-2 text-ink/50">
-                <span className="text-sm font-medium">Join waitlist</span>
+                <span className="text-sm font-medium">Newsletter</span>
               </div>
             </div>
 
@@ -163,7 +163,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="flex items-center gap-2 text-ink/50">
-                <span className="text-sm font-medium">Join waitlist</span>
+                <span className="text-sm font-medium">Newsletter</span>
               </div>
             </div>
           </div>
@@ -360,7 +360,7 @@ export default function LandingPage() {
           <div className="pt-8 border-t border-cloud-dancer/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <span className="text-sm text-cloud-dancer/40">© 2026 AI Cabinet Method LLC</span>
             <div className="flex items-center gap-6 text-sm text-cloud-dancer/40">
-              <Link href="/waitlist" className="hover:text-cloud-dancer transition-colors">Join Waitlist</Link>
+              <Link href="/waitlist" className="hover:text-cloud-dancer transition-colors">Newsletter</Link>
             </div>
           </div>
         </div>

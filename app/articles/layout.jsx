@@ -23,7 +23,7 @@ export default function ArticlesLayout({ children }) {
               href="/waitlist"
               className="bg-ink text-cloud-dancer px-4 py-2 md:px-6 md:py-3 rounded-full font-medium text-xs md:text-sm hover:bg-hematite transition-colors"
             >
-              Waitlist
+              Newsletter
             </Link>
           </div>
         </div>
