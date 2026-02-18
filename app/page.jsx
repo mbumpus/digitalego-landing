@@ -69,9 +69,11 @@ export default function LandingPage() {
                 </span>
               </div>
               <div className="flex justify-center">
-                <div className="w-48 h-48 rounded-full bg-gradient-to-br from-baltic-sea/30 to-quiet-violet/30 flex items-center justify-center">
-                  <span className="text-6xl font-light text-cloud-dancer/20">IIS</span>
-                </div>
+                <img 
+                  src="/images/persona-layers-featured.png" 
+                  alt="Abstract visualization of AI persona layers"
+                  className="w-64 h-64 object-contain"
+                />
               </div>
             </div>
             <div className="mt-8 pt-8 border-t border-cloud-dancer/10">
