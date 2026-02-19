@@ -19,19 +19,6 @@ export default function ArticlesPage() {
 
           <div className="space-y-0">
             <Link 
-              href="/articles/governed-by-architecture"
-              className="block py-8 border-b border-hematite/10 group"
-            >
-              <h2 className="text-xl font-medium text-ink group-hover:text-blue-fusion transition-colors mb-2">
-                Governed by Architecture: MCP, ActiveX, and Why We're Making the Same Mistakes Again
-              </h2>
-              <p className="text-hematite">
-                The MCP security model mirrors ActiveX-era "ambient authority" — and inherits its vulnerabilities. There's a better way.
-              </p>
-              <span className="text-sm text-hematite/60 mt-2 inline-block">February 2026</span>
-            </Link>
-
-            <Link 
               href="/articles/codesentry-build-story"
               className="block py-8 border-b border-hematite/10 group"
             >
