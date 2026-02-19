@@ -19,6 +19,19 @@ export default function ArticlesPage() {
 
           <div className="space-y-0">
             <Link 
+              href="/articles/first-proof-ai-crew"
+              className="block py-8 border-b border-hematite/10 group"
+            >
+              <h2 className="text-xl font-medium text-ink group-hover:text-blue-fusion transition-colors mb-2">
+                I Gave 11 Mathematicians' Hardest Problems to an AI Crew. Here's What Happened.
+              </h2>
+              <p className="text-hematite">
+                How a YAML file, a structured reasoning framework, and a governance upgrade turned context window death into structured research output.
+              </p>
+              <span className="text-sm text-hematite/60 mt-2 inline-block">February 12, 2026 · Part 1</span>
+            </Link>
+
+            <Link 
               href="/articles/invisible-to-800-million"
               className="block py-8 border-b border-hematite/10 group"
             >
