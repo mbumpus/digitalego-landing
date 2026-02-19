@@ -124,25 +124,18 @@ export default function Page() {
           <p className="mb-4 font-medium">Verdict: APPROVED. Bug fixes verified, no regressions. Ready for Phase 0 release.</p>
 
           <h3 className="text-2xl font-medium mt-10 mb-4 text-ink">What Actually Shipped</h3>
-          <pre className="bg-ink text-cloud-dancer p-4 rounded-lg overflow-x-auto text-sm mb-6">
-{`$ codesentry scan app.py
-╭─
-│  generic-exception-swallow (CS001)
-│  app.py:47:5
-│
-│  You're catching all exceptions and silently swallowing them.
-│  Catch specific exceptions you can handle.
-╰─────────────────────────────────────────────────────
-
-╭─
-│  blocking-call-in-async (CS003)
-│  app.py:82:9
-│
-│  You're using time.sleep() inside an async function.
-│  Use asyncio.sleep() instead.
-╰─────────────────────────────────────────────────────`}
-          </pre>
-          <p className="mb-4">With --teach mode, each issue includes: what's happening, why it matters, how to fix it, code examples (bad and good), and how to spot it yourself next time.</p>
+          <p className="mb-4">Default output — clean, scannable:</p>
+          <img 
+            src="/images/codesentry-default-output.png" 
+            alt="CodeSentry default output showing two issues detected" 
+            className="w-full rounded-lg mb-6 border border-hematite/10"
+          />
+          <p className="mb-4">With --teach mode, each issue includes: what's happening, why it matters, how to fix it, code examples (bad and good), and how to spot it yourself next time:</p>
+          <img 
+            src="/images/codesentry-teach-mode.png" 
+            alt="CodeSentry teach mode showing detailed explanations and code examples" 
+            className="w-full rounded-lg mb-6 border border-hematite/10"
+          />
           <p className="mb-4">That last section — "spot it yourself" — is the product. Not just catching bugs. Teaching developers to recognize patterns independently.</p>
 
           <hr className="my-12 border-hematite/20" />
