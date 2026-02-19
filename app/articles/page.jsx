@@ -19,6 +19,19 @@ export default function ArticlesPage() {
 
           <div className="space-y-0">
             <Link 
+              href="/articles/invisible-to-800-million"
+              className="block py-8 border-b border-hematite/10 group"
+            >
+              <h2 className="text-xl font-medium text-ink group-hover:text-blue-fusion transition-colors mb-2">
+                Your Website Is Invisible to 800 Million People
+              </h2>
+              <p className="text-hematite">
+                Every week, 800 million people ask ChatGPT to help them find things. 97% of websites have no AI identity. And robots.txt can't fix it.
+              </p>
+              <span className="text-sm text-hematite/60 mt-2 inline-block">February 2, 2026</span>
+            </Link>
+
+            <Link 
               href="/articles/codesentry-build-story"
               className="block py-8 border-b border-hematite/10 group"
             >
