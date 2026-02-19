@@ -60,10 +60,6 @@ export default function AboutClient() {
                 We build software that runs locally. We design governance into the architecture, not as an afterthought.
               </p>
 
-              <p className="mb-6">
-                We could cut humans out. The technology exists. We choose not to.
-              </p>
-
               <p className="text-ink italic">
                 Extension. Augmentation. Never replacement.
               </p>
