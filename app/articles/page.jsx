@@ -19,6 +19,19 @@ export default function ArticlesPage() {
 
           <div className="space-y-0">
             <Link 
+              href="/articles/codesentry-build-story"
+              className="block py-8 border-b border-hematite/10 group"
+            >
+              <h2 className="text-xl font-medium text-ink group-hover:text-blue-fusion transition-colors mb-2">
+                From LinkedIn Scroll to Working Prototype in Two Hours
+              </h2>
+              <p className="text-hematite">
+                A build-in-public story about AI-augmented product development. How a screenshot became a spec became a QA-approved tool in one Saturday morning.
+              </p>
+              <span className="text-sm text-hematite/60 mt-2 inline-block">January 31, 2026</span>
+            </Link>
+
+            <Link 
               href="/articles/behind-the-curtain"
               className="block py-8 border-b border-hematite/10 group"
             >
