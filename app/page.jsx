@@ -6,7 +6,8 @@ export default function LandingPage() {
       {/* Nav */}
       <nav className="fixed top-0 w-full z-50 bg-cloud-dancer/80 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-5 flex justify-between items-center">
-          <Link href="/" className="text-ink font-semibold text-lg md:text-xl tracking-tight">
+          <Link href="/" className="flex items-center gap-2 text-ink font-semibold text-lg md:text-xl tracking-tight">
+            <img src="/images/digitalego-logo.png" alt="DigitalEgo" className="h-8 w-8 md:h-10 md:w-10" />
             DigitalEgo
           </Link>
           <div className="flex items-center gap-4 md:gap-8">
